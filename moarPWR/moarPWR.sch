@@ -19,18 +19,14 @@ S 1500 2500 1600 800
 U 5B5D400A
 F0 "V_down_1" 50
 F1 "12V_to_5V.sch" 50
+F2 "5VO" I R 3100 2700 50 
 $EndSheet
 $Sheet
 S 5050 1850 1550 750 
 U 5B5E9C4D
 F0 "USB_1" 59
 F1 "5V_to_USB.sch" 59
-$EndSheet
-$Sheet
-S 5100 3350 1550 750 
-U 5B5E9C53
-F0 "USB_2" 59
-F1 "5V_to_USB.sch" 59
+F2 "5VIN" I L 5050 2000 50 
 $EndSheet
 Wire Notes Line
 	3300 2950 4000 2950
@@ -38,10 +34,6 @@ Wire Notes Line
 	4000 2250 5000 2250
 Wire Notes Line
 	5000 2250 5000 2300
-Wire Notes Line
-	4000 3750 5000 3750
-Wire Notes Line
-	4000 2250 4000 3750
 $Sheet
 S 1550 4800 1550 650 
 U 5B5E9CD0
@@ -60,8 +52,12 @@ Text Notes 3350 2900 0    59   ~ 0
 5V @ 2A
 Text Notes 4200 2200 0    59   ~ 0
 5V @ 1A
-Text Notes 4250 3700 0    59   ~ 0
-5V @ 1A
 Text Notes 3800 5050 0    59   ~ 0
 20V @ 5A
+Wire Wire Line
+	3100 2700 3650 2700
+Wire Wire Line
+	3650 2700 3650 2000
+Wire Wire Line
+	3650 2000 5050 2000
 $EndSCHEMATC
