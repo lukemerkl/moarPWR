@@ -1,0 +1,284 @@
+EESchema Schematic File Version 4
+LIBS:moarPWR-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MERKL_LIB:AS1108WL U?
+U 1 1 5C4CDD83
+P 4150 2700
+F 0 "U?" H 4500 3750 50  0000 C CNN
+F 1 "AS1108WL" H 4400 1650 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm" H 4550 3500 50  0001 C CNN
+F 3 "https://ams.com/documents/20143/36005/AS1108_DS000169_2-00.pdf" H 4550 3500 50  0001 C CNN
+F 4 "ams" H 4150 2700 50  0001 C CNN "Manufacturer"
+F 5 "AS1108WL-TCT-ND" H 4150 2700 50  0001 C CNN "Manufacturer P/N"
+F 6 "Digi-Key" H 4150 2700 50  0001 C CNN "Vendor"
+F 7 "AS1108WL-TCT-ND" H 4150 2700 50  0001 C CNN "Vendor P/N"
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHARACTER_DISPLAY:ACSC03-41EWA-F01 U?
+U 1 1 5C4CF4EC
+P 6650 3200
+F 0 "U?" H 6650 3867 50  0000 C CNN
+F 1 "ACSC03-41EWA-F01" H 6650 3776 50  0000 C CNN
+F 2 "MOARPWR:10-SMD_B7.3x12x3.75mm_P1.5mm" H 6650 2650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/ACSC03-41EWA-F01(Ver.1).pdf" H 6250 3750 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2900 5100 2900
+Text Label 5100 2900 0    50   ~ 0
+SEG_A
+Text Label 5100 3000 0    50   ~ 0
+SEG_F
+Text Label 5100 3100 0    50   ~ 0
+SEG_B
+Text Label 5100 3200 0    50   ~ 0
+SEG_G
+Text Label 5100 3300 0    50   ~ 0
+SEG_C
+Text Label 5100 3400 0    50   ~ 0
+SEG_E
+Text Label 5100 3500 0    50   ~ 0
+SEG_DP
+Text Label 5100 3600 0    50   ~ 0
+SEG_D
+Wire Wire Line
+	4750 3000 5100 3000
+Wire Wire Line
+	4750 3100 5100 3100
+Wire Wire Line
+	4750 3200 5100 3200
+Wire Wire Line
+	4750 3300 5100 3300
+Wire Wire Line
+	4750 3400 5100 3400
+Wire Wire Line
+	4750 3500 5100 3500
+Wire Wire Line
+	4750 3600 5100 3600
+Wire Wire Line
+	6350 2900 6000 2900
+Text Label 6000 2900 2    50   ~ 0
+SEG_A
+Text Label 6000 3400 2    50   ~ 0
+SEG_F
+Text Label 6000 3000 2    50   ~ 0
+SEG_B
+Text Label 6000 3500 2    50   ~ 0
+SEG_G
+Text Label 6000 3100 2    50   ~ 0
+SEG_C
+Text Label 6000 3300 2    50   ~ 0
+SEG_E
+Text Label 6000 3600 2    50   ~ 0
+SEG_DP
+Text Label 6000 3200 2    50   ~ 0
+SEG_D
+Wire Wire Line
+	6350 3400 6000 3400
+Wire Wire Line
+	6350 3000 6000 3000
+Wire Wire Line
+	6350 3500 6000 3500
+Wire Wire Line
+	6350 3100 6000 3100
+Wire Wire Line
+	6350 3300 6000 3300
+Wire Wire Line
+	6350 3600 6000 3600
+Wire Wire Line
+	6350 3200 6000 3200
+Wire Wire Line
+	6950 3500 7050 3500
+Wire Wire Line
+	7050 3500 7050 3550
+Wire Wire Line
+	7050 3600 6950 3600
+Wire Wire Line
+	7050 3550 7200 3550
+Connection ~ 7050 3550
+Wire Wire Line
+	7050 3550 7050 3600
+Text Label 7200 3550 0    50   ~ 0
+SEG_0
+Wire Wire Line
+	4750 2300 4900 2300
+Text Label 4900 2300 0    50   ~ 0
+SEG_0
+$Comp
+L CHARACTER_DISPLAY:ACSC03-41EWA-F01 U?
+U 1 1 5C4D06DB
+P 6650 4550
+F 0 "U?" H 6650 5217 50  0000 C CNN
+F 1 "ACSC03-41EWA-F01" H 6650 5126 50  0000 C CNN
+F 2 "MOARPWR:10-SMD_B7.3x12x3.75mm_P1.5mm" H 6650 4000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/ACSC03-41EWA-F01(Ver.1).pdf" H 6250 5100 50  0001 C CNN
+	1    6650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4250 6000 4250
+Text Label 6000 4250 2    50   ~ 0
+SEG_A
+Text Label 6000 4750 2    50   ~ 0
+SEG_F
+Text Label 6000 4350 2    50   ~ 0
+SEG_B
+Text Label 6000 4850 2    50   ~ 0
+SEG_G
+Text Label 6000 4450 2    50   ~ 0
+SEG_C
+Text Label 6000 4650 2    50   ~ 0
+SEG_E
+Text Label 6000 4950 2    50   ~ 0
+SEG_DP
+Text Label 6000 4550 2    50   ~ 0
+SEG_D
+Wire Wire Line
+	6350 4750 6000 4750
+Wire Wire Line
+	6350 4350 6000 4350
+Wire Wire Line
+	6350 4850 6000 4850
+Wire Wire Line
+	6350 4450 6000 4450
+Wire Wire Line
+	6350 4650 6000 4650
+Wire Wire Line
+	6350 4950 6000 4950
+Wire Wire Line
+	6350 4550 6000 4550
+Wire Wire Line
+	6950 4850 7050 4850
+Wire Wire Line
+	7050 4850 7050 4900
+Wire Wire Line
+	7050 4950 6950 4950
+Wire Wire Line
+	7050 4900 7200 4900
+Connection ~ 7050 4900
+Wire Wire Line
+	7050 4900 7050 4950
+Text Label 7200 4900 0    50   ~ 0
+SEG_1
+Wire Wire Line
+	4750 2400 4900 2400
+Text Label 4900 2400 0    50   ~ 0
+SEG_1
+$Comp
+L power:+5V #PWR?
+U 1 1 5C4D4873
+P 4150 950
+F 0 "#PWR?" H 4150 800 50  0001 C CNN
+F 1 "+5V" H 4165 1123 50  0000 C CNN
+F 2 "" H 4150 950 50  0001 C CNN
+F 3 "" H 4150 950 50  0001 C CNN
+	1    4150 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1500 4150 1100
+$Comp
+L Device:C C?
+U 1 1 5C4D57D5
+P 5000 1200
+F 0 "C?" H 5115 1246 50  0000 L CNN
+F 1 ".1uF" H 5115 1155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5038 1050 50  0001 C CNN
+F 3 "~" H 5000 1200 50  0001 C CNN
+F 4 "KEMET" H 5000 1200 50  0001 C CNN "Manufacturer"
+F 5 "C0805X104K4RACTU" H 5000 1200 50  0001 C CNN "Manufacturer P/N"
+F 6 "Digi-Key" H 5000 1200 50  0001 C CNN "Vendor"
+F 7 "399-5331-1-ND" H 5000 1200 50  0001 C CNN "Vendor P/N"
+	1    5000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1050 4150 1050
+Connection ~ 4150 1050
+Wire Wire Line
+	4150 1050 4150 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5C4D6095
+P 5000 1450
+F 0 "#PWR?" H 5000 1200 50  0001 C CNN
+F 1 "GND" H 5005 1277 50  0000 C CNN
+F 2 "" H 5000 1450 50  0001 C CNN
+F 3 "" H 5000 1450 50  0001 C CNN
+	1    5000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1350 5000 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5C4D68F0
+P 4100 4150
+F 0 "#PWR?" H 4100 3900 50  0001 C CNN
+F 1 "GND" H 4105 3977 50  0000 C CNN
+F 2 "" H 4100 4150 50  0001 C CNN
+F 3 "" H 4100 4150 50  0001 C CNN
+	1    4100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3950 4100 4150
+Wire Wire Line
+	4050 3900 4050 3950
+Wire Wire Line
+	4050 3950 4100 3950
+Wire Wire Line
+	4150 3900 4150 3950
+Wire Wire Line
+	4150 3950 4100 3950
+Connection ~ 4100 3950
+$Comp
+L Device:R R?
+U 1 1 5C4DA209
+P 3800 1250
+F 0 "R?" H 3870 1296 50  0000 L CNN
+F 1 "11.12k" H 3870 1205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3730 1250 50  0001 C CNN
+F 3 "~" H 3800 1250 50  0001 C CNN
+F 4 "Vishay Dale" H 3800 1250 50  0001 C CNN "Manufacturer"
+F 5 "TNPW080511K1BEEA" H 3800 1250 50  0001 C CNN "Manufacturer P/N"
+F 6 "Digi-Key" H 3800 1250 50  0001 C CNN "Vendor"
+F 7 "541-4558-1-ND" H 3800 1250 50  0001 C CNN "Vendor P/N"
+	1    3800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1400 3800 1500
+Wire Wire Line
+	3800 1100 4150 1100
+Connection ~ 4150 1100
+Wire Wire Line
+	4150 1100 4150 1050
+Wire Wire Line
+	3800 1500 4050 1500
+Text HLabel 3450 2000 0    50   Input ~ 0
+DIN
+Text HLabel 3450 2100 0    50   Input ~ 0
+LOAD_CSN
+Text HLabel 3450 2200 0    50   Input ~ 0
+CLK
+Text HLabel 4750 2000 2    50   Input ~ 0
+DOUT
+$EndSCHEMATC

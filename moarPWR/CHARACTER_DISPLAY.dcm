@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACSC03-41EWA-F01
+D One digit 7 segment red, common cathode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7503
+D One digit 7 segment high efficiency red, common cathode
+K display LED 7-segment
+F https://media.digikey.com/pdf/Data%20Sheets/Kingbright%20PDFs/ACSC03-41EWA-F01(Ver.1).pdf
+$ENDCMP
+#
+#End Doc Library

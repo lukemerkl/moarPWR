@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name MERKL_LIB)(type Legacy)(uri C:/Projects/moarPWR/moarPWR/MERKL_LIB.lib)(options "")(descr ""))
 )

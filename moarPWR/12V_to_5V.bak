@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -45,10 +45,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 2400 2950 2400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5B5E5C44
 P 1300 2550
-F 0 "#PWR?" H 1300 2300 50  0001 C CNN
+F 0 "#PWR0101" H 1300 2300 50  0001 C CNN
 F 1 "GND" H 1305 2377 50  0000 C CNN
 F 2 "" H 1300 2550 50  0001 C CNN
 F 3 "" H 1300 2550 50  0001 C CNN
@@ -58,10 +58,10 @@ $EndComp
 Wire Wire Line
 	1300 2250 1300 2450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5B5E5C6E
 P 3350 3250
-F 0 "#PWR?" H 3350 3000 50  0001 C CNN
+F 0 "#PWR0102" H 3350 3000 50  0001 C CNN
 F 1 "GND" H 3355 3077 50  0000 C CNN
 F 2 "" H 3350 3250 50  0001 C CNN
 F 3 "" H 3350 3250 50  0001 C CNN
@@ -149,10 +149,10 @@ Connection ~ 5150 2400
 Wire Wire Line
 	5150 2400 5000 2400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5B5E674C
 P 5700 3350
-F 0 "#PWR?" H 5700 3100 50  0001 C CNN
+F 0 "#PWR0103" H 5700 3100 50  0001 C CNN
 F 1 "GND" H 5705 3177 50  0000 C CNN
 F 2 "" H 5700 3350 50  0001 C CNN
 F 3 "" H 5700 3350 50  0001 C CNN
@@ -162,8 +162,6 @@ $EndComp
 Wire Wire Line
 	5700 2400 6000 2400
 Text Label 5750 2400 0    50   ~ 0
-5VO
-Text HLabel 6000 2400 2    50   Input ~ 0
 5VO
 Text Notes 5900 2800 0    50   ~ 0
 Vout = 0.765*(1+R2/R3)
@@ -210,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3250 5700 3350
 Text Notes 5600 2000 0    79   ~ 0
-5V @ 2A
+5V @ 3A
 Wire Notes Line
 	5600 2000 5600 2450
 Wire Notes Line
@@ -265,4 +263,15 @@ Wire Notes Line
 	2100 1900 2100 2600
 Text Notes 2100 1850 0    59   ~ 0
 Decoupling
+$Comp
+L power:+5V #PWR?
+U 1 1 5C4E506B
+P 6000 2400
+F 0 "#PWR?" H 6000 2250 50  0001 C CNN
+F 1 "+5V" H 6015 2573 50  0000 C CNN
+F 2 "" H 6000 2400 50  0001 C CNN
+F 3 "" H 6000 2400 50  0001 C CNN
+	1    6000 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
